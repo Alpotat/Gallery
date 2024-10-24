@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.gallery-item {
+    width: 250px;
+    height: 275px
+    
+    ;
+    margin: 10px;
+    border-radius: 8px;
+    overflow: hidden; /*Удаляет контент, выходящий за пределы элемента*/
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.gallery-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+
+
+
+
+
